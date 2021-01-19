@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "37527396337",
+    "project_id": "fir-autenticacao-41aa2",
+    "storage_bucket": "fir-autenticacao-41aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37527396337:android:ed332e7a6ea6cdd1e06e50",
+        "android_client_info": {
+          "package_name": "br.edu.ifsp.scl.ads.s5.pdm.autenticacaofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37527396337-mcbhq96lci31rug9rh11i3023lgmunui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.edu.ifsp.scl.ads.s5.pdm.autenticacaofirebase",
+            "certificate_hash": "612a7cbc7ca43cef8da482ad66b1bc522eec8963"
+          }
+        },
+        {
+          "client_id": "37527396337-jnrsejjhjg3lffuevsscj805sadl85n0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHDnODu5VRUZbgk635KJ6L3bvqN1eZOV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37527396337-jnrsejjhjg3lffuevsscj805sadl85n0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
