@@ -26,7 +26,12 @@ class MainActivity : AppCompatActivity() {
             activityMainBinding.bemVindoTv.text = "Seja bem-vindo $email"
         }
         else {
-            finish()
+            if (AutenticadorFirebase.googleSignInClient != null) {
+                activityMainBinding.bemVindoTv.text = "Seja bem-vindo"
+            }
+            else {
+                finish()
+            }
         }
     }
 
@@ -34,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         if (view == activityMainBinding.sairBt) {
             // Deslogar
             AutenticadorFirebase.firebaseAuth.signOut()
+            AutenticadorFirebase.googleSignInClient?.signOut()
             finish()
         }
     }
